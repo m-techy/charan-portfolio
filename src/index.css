@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  cursor: none;
+  overflow: hidden;
+}
+
+body {
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  /* Track */
+
+  ::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px grey;  */
+
+    border-radius: 10px;
+  }
+
+  /* Handle */
+
+  ::-webkit-scrollbar-thumb {
+    background: white;
+
+    border-radius: 10px;
+  }
+
+  /* Handle on hover */
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+  }
+}
+
+#scroll-container {
+  height: 100vh;
+  overflow-y: auto;
+}
+
+#scroll-container > * {
+  flex-shrink: 0;
+}
+
+.hero {
+  min-height: 87vh;
+}
+
+a {
+  cursor: none;
+}
+
+.shine-overlay {
+  position: relative;
+  overflow: hidden;
+
+  &:hover .shine {
+    display: block;
+  }
+}
+
+.shine {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(255, 255, 255, 0)),
+    color-stop(50%, rgba(255, 255, 255, 0.8)),
+    to(rgba(255, 255, 255, 0))
+  );
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0,
+    rgba(255, 255, 255, 0.8) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  pointer-events: none;
+  z-index: 3;
+  opacity: 0;
+  transform: skew(30deg);
+  animation: shine 0.75s linear 1;
+}
+
+@keyframes shine {
+  0% {
+    left: -50%;
+    opacity: 0;
+  }
+  50% {
+    left: 25%;
+    opacity: 0.5;
+  }
+  100% {
+    left: 100%;
+    opacity: 0;
+  }
+}
+
+
+.cursor {
+
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.cursor-inner--dot {
+  width: 8px;
+  height: 8px;
+  background-color: #f5f5f5;
+}
+
+.cursor-inner--circle {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #f5f5f5;
+}
+
+.cursor-inner {
+  z-index: 9999;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  mix-blend-mode: difference;
+}
+
+@media screen and (max-width: 53em) {
+  .cursor {
+    visibility: hidden;
+  }
+}
