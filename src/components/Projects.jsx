@@ -1,6 +1,8 @@
 import React from "react";
 import github from "../assets/github.png";
 import g3nai from "../assets/g3naiproject.png";
+import pawnitor from "../assets/pawnitor.png";
+import pawnitorlogo from '../assets/pawnitorlogo.png'
 import g3ni from "../assets/g3ni.png";
 
 const Projects = () => {
@@ -51,7 +53,7 @@ const Projects = () => {
           </div>
           <div className="flex items-center">
             <a
-              href="https://github.com/m-techy"
+              href="https://github.com/m-techy/G3n.ai"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -124,7 +126,7 @@ const Projects = () => {
       </div>
       <div className="w-full flex flex-row-reverse gap-8 py-14 pt-[4rem]">
         <div className="w-[35%] flex flex-col gap-4">
-          <div className="text-white text-xl font-sans">G3n.ai</div>
+          <div className="text-white text-xl font-sans">Pawnitor</div>
           <div className="font-mono text-white flex flex-wrap gap-3 text-sm">
             <div className="py-2 px-4 border-[0.2px] cursor-none border-opacity-45 border-light-grey rounded-[1.8rem]">
               React
@@ -139,17 +141,19 @@ const Projects = () => {
               FastApi
             </div>
             <div className="py-2 px-4 border-[0.2px] cursor-none border-opacity-45 border-light-grey rounded-[1.8rem]">
-              LLM
+              CV
             </div>
           </div>
           <div className="flex flex-col gap-3 py-4">
             <div className="text-white text-sm">
-              G3n.ai - an innovative AI platform for text-to-music,
-              text-to-image, and text-to-speech synthesis.
+              Pawnitor - Smart Pet Monitoring for a cleaner community.
             </div>
             <div className="text-white text-sm">
-              This project comprises several key microservices. each
-              contributing to its overall functionality and prowess.
+              This platform features high-resolution cameras with AI-driven
+              image recognition to detect pet waste and identify pets in
+              real-time. It ensures prompt cleanup with an auto-cleanup device
+              and provides compliance reports to maintain community cleanliness
+              effortlessly.
             </div>
           </div>
           <div className="flex items-center">
@@ -190,19 +194,19 @@ const Projects = () => {
           </div>
         </div>
         <div className="relative font-mono text-white w-[65%] pb-20">
-          <img src={g3nai} alt="G3n.ai" className="relative z-10" />
-          <div className="absolute flex items-center z-20 translate-x-[14vw] -translate-y-[6vw]">
+          <img src={pawnitor} alt="pawnitor" className="relative z-10" />
+          <div className="absolute flex items-center z-20 translate-x-[1.5vw] -translate-y-[29vw]">
             <a
-              href="https://g3n-ai.vercel.app/"
+              // href="https://g3n-ai.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <div className="bg-black rounded-full border-[0.2px] border-opacity-45 border-light-grey h-fit p-3 hover-target">
-                <img src={g3ni} alt="github" className="w-7 h-7 hover-target" />
+                <img src={pawnitorlogo} alt="pawnitor" className="w-7 h-7 hover-target" />
               </div>
             </a>
             <a
-              href="https://g3n-ai.vercel.app/"
+              // href="https://g3n-ai.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
