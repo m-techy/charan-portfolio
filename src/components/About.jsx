@@ -13,7 +13,7 @@ const About = () => {
             AI and Frontend Developer.
             <br />
           </span>
-          More than
+          With more than
           <span className="text-white font-sans italic hover-target mx-2">
             1.8 Years
           </span>
@@ -30,7 +30,7 @@ const About = () => {
           </div>
           <div className="flex justify-between  w-11/12">
             <div className="flex  w-[70%] flex-col relative overflow-hidden items-start gap-2 border-[0.2px] cursor-none border-opacity-45 border-light-grey rounded-[1.8rem] p-8 hover-target hover:bg-white hover:text-black">
-              <div className="font-sans hover-target">Styles</div>
+              <div className="font-sans hover-target text-xl">Styles</div>
               <div className="font-mono hover-target">
                 TailWind / SCSS / SASS / MUI / RadixUI / Bootstrap
               </div>

@@ -8,7 +8,7 @@ const Work = () => {
       </div>
       <div className="flex flex-col items-center justify-center w-[101%] ml-[-2px]">
         <div className="text-white w-full px-[4.9%] py-4 flex items-center justify-between border-[0.2px] cursor-none border-opacity-45 border-light-grey hover-target hover:bg-white hover:text-black">
-        <div className="flex flex-col w-[17%]">
+        <div className="flex flex-col w-[19%]">
             <div className="font-sans text-xl hover-target flex gap-2 items-center">2024 <div className="font-mono text-sm">[July-Present]</div></div>
             <div className="font-sans text-sm hover-target">1 Month</div>
           </div>
@@ -20,8 +20,8 @@ const Work = () => {
           </div>
         </div>
         <div className="text-white w-full px-[4.9%] py-4 flex items-center justify-between border-[0.2px] cursor-none border-opacity-45 border-light-grey hover-target hover:bg-white hover:text-black">
-        <div className="flex flex-col w-[17%]">
-            <div className="font-sans text-xl hover-target flex gap-2 items-center">2023 - 2024 <div className="font-mono text-sm"></div></div>
+        <div className="flex flex-col w-[19%]">
+            <div className="font-sans text-xl hover-target flex gap-2 items-center">2023 - 2024 <div className="font-mono text-sm">[June-July]</div></div>
             <div className="font-sans text-sm hover-target">1 Year 1 Month</div>
           </div>
           <div className="font-sans text-xl w-[25%] text-left hover-target">
@@ -32,7 +32,7 @@ const Work = () => {
           </div>
         </div>
         <div className="text-white w-full px-[4.9%] py-4 flex items-center justify-between border-[0.2px] cursor-none border-opacity-45 border-light-grey hover-target hover:bg-white hover:text-black">
-          <div className="flex flex-col w-[17%]">
+          <div className="flex flex-col w-[19%]">
             <div className="font-sans text-xl hover-target flex gap-2 items-center">2023 <div className="font-mono text-sm">[Jan-June]</div></div>
             <div className="font-sans text-sm hover-target">6 Months</div>
           </div>
