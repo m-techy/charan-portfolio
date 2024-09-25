@@ -9,15 +9,15 @@ const Work = () => {
       <div className="flex flex-col items-center justify-center w-[101%] ml-[-2px]">
         <div className="text-white w-full px-[4.9%] py-4 flex items-center justify-between border-[0.2px] cursor-none border-opacity-45 border-light-grey hover-target hover:bg-white hover:text-black">
         <div className="flex flex-col w-[19%]">
-            <div className="font-sans text-xl hover-target flex gap-2 items-center">2024 <div className="font-mono text-sm">[July-Present]</div></div>
-            <div className="font-sans text-sm hover-target">1 Month</div>
+            <div className="font-sans text-xl hover-target flex gap-2 items-center">2024 <div className="font-mono text-sm">[July-Sept]</div></div>
+            <div className="font-sans text-sm hover-target">3 Months</div>
           </div>
           <div className="font-sans text-xl w-[25%] text-left hover-target">
             Brane Enterprises Pvt Ltd
           </div>
           <div className="font-mono text-xl text-left w-[40%] hover-target">
-            Frontend developer | React
-          </div>
+            SDE | AI & ML, React
+           </div>
         </div>
         <div className="text-white w-full px-[4.9%] py-4 flex items-center justify-between border-[0.2px] cursor-none border-opacity-45 border-light-grey hover-target hover:bg-white hover:text-black">
         <div className="flex flex-col w-[19%]">
@@ -28,7 +28,7 @@ const Work = () => {
             Brane Enterprises Pvt Ltd
           </div>
           <div className="font-mono text-xl text-left w-[40%] hover-target">
-            Frontend developer Intern | React
+            SDE Intern | AI & ML, React
           </div>
         </div>
         <div className="text-white w-full px-[4.9%] py-4 flex items-center justify-between border-[0.2px] cursor-none border-opacity-45 border-light-grey hover-target hover:bg-white hover:text-black">
