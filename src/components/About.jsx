@@ -25,7 +25,7 @@ const About = () => {
           <div className="flex flex-col relative overflow-hidden items-start gap-2 border-[0.2px] cursor-none border-opacity-45 border-light-grey rounded-[1.8rem] p-8 hover-target hover:bg-white hover:text-black">
             <div className="font-sans hover-target text-xl">AI / ML</div>
             <div className="font-mono hover-target">
-              Python / DL / Scikit-Learn / Langchain
+              Python / DL / Scikit-Learn / Langchain / Pytorch / Tensorflow
             </div>
           </div>
           <div className="flex justify-between  w-11/12">
