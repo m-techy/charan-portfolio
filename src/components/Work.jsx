@@ -46,7 +46,7 @@ const Work = () => {
       </div>
       <div className="font-sans px-[4.9%] text-white flex flex-col py-5 items-end justify-end ">
         <div className="text-light-grey text-xl">Work experience</div>
-        <div className="text-white italic text-xl">1 year 10 months</div>
+        <div className="text-white italic text-xl">1 year 8 months</div>
       </div>
     </div>
   );
